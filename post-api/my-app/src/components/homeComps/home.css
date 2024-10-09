@@ -1,0 +1,45 @@
+.post-boxes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-box {
+    background-image:url(C:\Users\ninja\Documents\exam-aws-shui-solo\post-api\my-app\src\assests\card.png);
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.post-box-container {
+    display: flex;
+    width: 300px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.post-box-text {
+    margin: 0;
+    font-weight: light;
+}
+
+.post-box-created-at {
+    color: gray;
+}
+
+.post-box-username {
+    font-weight: bolder;
+}
+
+.post-img-section {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    float: right;
+}
+
+.post-box-no-messages {
+    color: white;
+}
