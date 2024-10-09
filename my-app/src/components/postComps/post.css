@@ -1,0 +1,43 @@
+.publish-box-section {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+
+.publish-box {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    position: fixed;
+    top: 10%;
+    
+}
+
+.publish-box-text {
+    margin: 0;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.username-input {
+    padding: 20px 120px;
+    background: none;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.publish-btn {
+    padding: 20px 178px;
+    text-align: center;
+    color: black;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
