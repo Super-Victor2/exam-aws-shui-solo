@@ -1,8 +1,27 @@
 import './home.css';
 import PostBoxImg from '../../assests/Group 6.png'
 import { Link } from 'react-router-dom';
+import {useState, useEffect } from 'react';
+import axios from 'react';
+
+
+const getPosts = () => {
+    
+}
 
 function homeComp() {
+
+    const [messages, setMessages] = useState([]);
+    const [newMessages, setNewMessages] = useState('');
+    
+    useEffect(() => {
+        getPosts(setMessages);
+    }, []);
+
+    const postMessage = () => {
+
+    }
+
     return (
         <>
             <section className="post-boxes-section">
